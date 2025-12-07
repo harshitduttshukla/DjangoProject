@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import ChaiVarity, ChaiReview, Store, ChaiCertification
+from .models import ChaiVarity, ChaiReview, Store, ChaiCertification,Product
 
 # Register your models here.
 
@@ -23,3 +23,4 @@ admin.site.register(ChaiVarity,ChaiVarityAdmin)
 admin.site.register(Store,StoreAdmin)
 admin.site.register(ChaiCertification,ChaiCertificationAmin)
 
+admin.site.register(Product)
